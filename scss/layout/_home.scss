@@ -1,0 +1,19 @@
+.home {
+  &__title {
+    padding-bottom: 80px;
+  }
+  &__sub-title {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+}
